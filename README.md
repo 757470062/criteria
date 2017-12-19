@@ -7,7 +7,7 @@ In your laravel project.Query conditions are often used.You don't have to write 
 composer require bugslife/criteria:dev-dev
 ```
 ## Usage
-use trait in your model and set $fieldSearchable,suport （=，like, between, >, <, >=, <=）,and && or,between request is [a, b].
+use trait in your model and set $fieldSearchable,suport （=，like, between,not between, in, not in, >, <, >=, <=, <>）,and && or,between,not between request is [a, b]. in,not in request is [1,2,3].
 ```php
 <?php
 
