@@ -1,7 +1,7 @@
 {
   "name": "bugslife/criteria",
   "description": "You don't have to write the query every time.",
-  "type": "composer-plugin",
+  "type": "library",
   "require": {
     "bugslife/criteria": "^1.0.0",
     "laravel/framework": "5.5.*",
