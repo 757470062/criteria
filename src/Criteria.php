@@ -6,7 +6,7 @@
  * Time: 上午1:13
  */
 
-namespace packages\bugslife\criteria\src;
+namespace Bugslife\Criteria\Src;
 
 
 class Criteria
