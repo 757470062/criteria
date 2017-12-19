@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: huangangui
- * Date: 2017/12/20
- * Time: 上午1:13
- */
 
 namespace Bugslife\Criteria;
 
