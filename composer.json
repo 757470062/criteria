@@ -1,0 +1,21 @@
+{
+    "name": "bugslife/criteria",
+    "description": "You don't have to write the query every time.",
+    "type": "composer-plugin",
+    "require": {
+        "laravel/framework": ">=5.2*",
+        "php": ">=5.64"
+    },
+    "require-dev": {
+        "laravel/framework": ">=5.2*",
+        "php": ">=5.64"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Blue",
+            "email": "757470062@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
