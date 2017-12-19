@@ -3,7 +3,7 @@
   "description": "You don't have to write the query every time.",
   "type": "composer-plugin",
   "require": {
-    "bugslife/criteria": '^1.0.0',
+    "bugslife/criteria": "^1.0.0",
     "laravel/framework": "5.5.*",
     "php": ">=7.0.0"
   },
@@ -18,7 +18,7 @@
     ],
     "psr-4": {
       "App\\": "app/",
-      "BugsLife\\Criteria\\":"src"
+      "BugsLife\\Criteria\\":"src/"
     }
   },
   "autoload-dev": {
