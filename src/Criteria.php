@@ -23,17 +23,32 @@ trait Criteria
             foreach ($fieldSearchable as $field => $condition){
                 if (!is_null($request[$field])){
                     $value = $request[$field];
+
                     if (strcasecmp($condition[0], 'like') === 0){
                         $value = '%'. $request[$field] .'%';
                     }
-                    if (($isFirstField || strcasecmp($condition[1], 'and') === 0) && !strcasecmp($condition[1], 'between') === 0){
+
+                    if ($isFirstField || strcasecmp($condition[1], 'and') === 0){
                         $query->where($field, $condition[0], $value);
                         $isFirstField = false;
-                    }else if (strcasecmp($condition[1], 'between') === 0){
-                        $query->whereBetween($field, $value);
                     }else{
-                        $query->orWhere($field, $condition[0], $value);
+                        if (strcasecmp($condition[1], 'between') === 0){
+                            $query->whereBetween($field, $value);
+                        }
+                        if (strcasecmp($condition[1], 'notBetween') === 0){
+                            $query->whereNotBetween($field, $value);
+                        }
+                        if (strcasecmp($condition[1], 'in') === 0){
+                            $query->whereIn($field, $value);
+                        }
+                        if (strcasecmp($condition[1], 'notIn') === 0){
+                            $query->whereNotIn($field, $value);
+                        }
+                        if(strcasecmp($condition[1], 'or') === 0){
+                            $query->orWhere($field, $condition[0], $value);
+                        }
                     }
+
                 }
             }
 
