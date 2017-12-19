@@ -1,26 +1,36 @@
 {
-    "name": "bugslife/criteria",
-    "description": "You don't have to write the query every time.",
-    "type": "composer-plugin",
-    "require": {
-        "laravel/framework": "5.5.*",
-        "php": ">=7.0.0"
-    },
-    "require-dev": {
-        "laravel/framework": "5.5.*",
-        "php": ">=7.0.0"
-    },
-    "license": "MIT",
-    "autoload": {
-       "psr-4": {
-            "BugsLife\\Criteria\\":"src"
-        }
-    },
-    "authors": [
-        {
-            "name": "Blue",
-            "email": "757470062@qq.com"
-        }
+  "name": "bugslife/criteria",
+  "description": "You don't have to write the query every time.",
+  "type": "composer-plugin",
+  "require": {
+    "laravel/framework": ">=5.2*",
+    "php": ">=5.64"
+  },
+  "require-dev": {
+    "laravel/framework": ">=5.2*",
+    "php": ">=5.64"
+  },
+  "autoload": {
+    "classmap": [
+      "database/seeds",
+      "database/factories"
     ],
-    "minimum-stability": "stable"
+    "psr-4": {
+      "App\\": "app/",
+      "BugsLife\\Criteria\\":"src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Blue",
+      "email": "757470062@qq.com"
+    }
+  ],
+  "minimum-stability": "dev"
 }
