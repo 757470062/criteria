@@ -3,12 +3,12 @@
     "description": "You don't have to write the query every time.",
     "type": "composer-plugin",
     "require": {
-        "laravel/framework": ">=5.2*",
-        "php": ">=5.64"
+        "laravel/framework": "5.5*",
+        "php": "7.*"
     },
     "require-dev": {
-        "laravel/framework": ">=5.2*",
-        "php": ">=5.64"
+        "laravel/framework": "5.5*",
+        "php": "7.0"
     },
     "license": "MIT",
     "authors": [
