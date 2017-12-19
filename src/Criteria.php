@@ -1,6 +1,6 @@
 <?php
 
-namespace Bugslife\Criteria;
+namespace BugsLife\Criteria;
 
 
 class Criteria
