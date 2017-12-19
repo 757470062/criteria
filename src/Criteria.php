@@ -3,7 +3,7 @@
 namespace BugsLife\Criteria;
 
 
-class Criteria
+trait Criteria
 {
 
     /**
