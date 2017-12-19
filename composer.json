@@ -3,11 +3,11 @@
   "description": "You don't have to write the query every time.",
   "type": "composer-plugin",
   "require": {
-    "laravel/framework": ">=5.2*",
+    "laravel/framework": ">=5.2.*",
     "php": ">=5.64"
   },
   "require-dev": {
-    "laravel/framework": ">=5.2*",
+    "laravel/framework": ">=5.2.*",
     "php": ">=5.64"
   },
   "autoload": {
