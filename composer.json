@@ -3,11 +3,9 @@
   "description": "You don't have to write the query every time.",
   "type": "library",
   "require": {
-    "laravel/framework": "5.5.*",
     "php": ">=7.0.0"
   },
   "require-dev": {
-    "laravel/framework": "5.5.*",
     "php": ">=7.0.0"
   },
   "autoload": {
