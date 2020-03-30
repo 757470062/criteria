@@ -6,7 +6,7 @@
  * Time: 5:00 PM
  */
 
-namespace BugsLife\criteria\Filter\Format;
+namespace BugsLife\Criteria\Filter\Format;
 
 
 use BugsLife\Criteria\Filter\ICriteria;

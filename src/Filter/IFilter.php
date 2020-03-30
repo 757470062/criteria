@@ -6,7 +6,7 @@
  * Time: 11:22 AM
  */
 
-namespace BugsLife\criteria\Filter;
+namespace BugsLife\Criteria\Filter;
 
 /**
  * Interface IFilter

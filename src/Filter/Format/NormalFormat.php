@@ -6,7 +6,7 @@
  * Time: 5:04 PM
  */
 
-namespace BugsLife\criteria\Filter\Format;
+namespace BugsLife\Criteria\Filter\Format;
 
 /**
  * Class NormalFormat

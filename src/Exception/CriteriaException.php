@@ -6,7 +6,7 @@
  * Time: 5:39 PM
  */
 
-namespace BugsLife\criteria\Exception;
+namespace BugsLife\Criteria\Exception;
 
 
 use Throwable;

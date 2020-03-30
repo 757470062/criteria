@@ -6,7 +6,7 @@
  * Time: 11:38 AM
  */
 
-namespace BugsLife\criteria\Filter\Format;
+namespace BugsLife\Criteria\Filter\Format;
 
 /**
  * Class SortFormat

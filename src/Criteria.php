@@ -6,7 +6,7 @@
  * Time: 2:04 PM
  */
 
-namespace BugsLife\criteria;
+namespace BugsLife\Criteria;
 
 use BugsLife\Criteria\Exception\CriteriaException;
 use BugsLife\Criteria\Filter\Format\NormalFormat;

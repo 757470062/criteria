@@ -6,7 +6,7 @@
  * Time: 5:02 PM
  */
 
-namespace BugsLife\criteria\Filter\Format;
+namespace BugsLife\Criteria\Filter\Format;
 
 /**
  * Class RelationFormat

@@ -6,7 +6,7 @@
  * Time: 9:55 AM
  */
 
-namespace BugsLife\criteria\Filter;
+namespace BugsLife\Criteria\Filter;
 
 /**
  * Interface IFilterRelation
