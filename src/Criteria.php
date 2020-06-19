@@ -45,13 +45,12 @@ trait Criteria
      */
     public function withCriteria(array $param, $filter = null)
     {
-        $model = '';
         foreach ($this->format as $name => $class) {
-            $model = (new $class)
+            $this->model = (new $class)
                 ->boot($param, $this->model, $filter)
                 ->doCriteria();
         }
-        return $model;
+        return $this->model;
     }
 
 }
